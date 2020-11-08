@@ -8,11 +8,6 @@
         $input2 = $_POST["val2"];
         $opt = $_POST["calc"];
 
-        //echo $input1;
-        //echo $input2;
-        //echo $opt;
-
-
         if(is_numeric($input1) && is_numeric($input2)){
             # test if calc is not null
             if($opt != ""){
