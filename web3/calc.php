@@ -17,27 +17,22 @@
             # test if calc is not null
             if($opt != ""){
                 # switch statement for value of calc
-                //echo $opt;
                 switch($opt){
                     case 'add':
-                        $add = $input1 + $input2;
-                        echo $add;
+                        $result = $input1 + $input2;
                     break;
                     case 'sub':
-                        $sub = $input1 - $input2;
-                        echo $sub;
+                        $result = $input1 - $input2;
                     break;
                     case 'mul':
-                        $mul = $input1 * $input2;
-                        echo $mul;
+                        $result = $input1 * $input2;
                     break;
                     case 'div':
-                        $div = $input1 / $input2;
-                        echo $div;
+                        $result = $input1 / $input2;
                     break;
 
                 }
-                //echo "Calculation result: $result";
+                echo "Calculation result:" . $result;
             }
         }
         else{ echo "Invalid entry - please retry"; }
