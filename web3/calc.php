@@ -18,7 +18,7 @@
                     break;
                     case 'sub':
                         $result = $input1 - $input2;
-                    break;
+                    break;~
                     case 'mul':
                         $result = $input1 * $input2;
                     break;
